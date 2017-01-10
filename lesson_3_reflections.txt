@@ -8,20 +8,18 @@ You could be in the middle of working on something.  If you are and that file wa
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+Forks allow you to clone a repository directly on GitHub without having to clone it locally first.  You are then allowed to clone the forked repository which would automatically contain the remote reference.
+Clones allow you to clone a repository directly from GitHub and store it locally.
+Branches are new projects that allow you to change and test files on the master branch without actually affecting the master branch.  When you are done making your changes on your new branch, you are able to commit those changes to the master and push them to your remote repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+You are able to see what all has been added since you last synchronized (pulled) from the remote repository.  This would help you when you needed to merge your changes into the current remote branch or to pull recent changes from the remote branch into your local copy if you need access to the latest code.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+We have traditionally used SVN which is very similar but doesn't track and allow you to compare branches as easy.  Without any repository then you have to just use the local server which can cause you to run into a lot of conflicts and issues such as overwriting files.  Just using the server and not a repository is a bit less work, but has issues.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here
+Anytime you are working on a new feature then you want to create a new branch which allows you to build and test your updates on that new branch without affecting the master branch.  When you are done with your development on the new branch, you can merge those changes with the master branch to ensure the master branch is always stable.
