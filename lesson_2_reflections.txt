@@ -11,11 +11,15 @@ Grouping the files related to that logical change in your staging area then comm
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Each time you want to create a new feature, you create a new branch.  This way you can track your full development of that feature until development is complete and you can merge those changes with your master repository.
 
 How do the diagrams help you visualize the branch structure?
+They show you where a new branch has branched off from the branch you are comparing to by showing a physical branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It merges the changes from both files into one branch.  The diagram shows when we merged and what commits were included in the merge as well as denoting from which branch those commits came from.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+It takes a lot of hassle out of manually comparing and merging files, but allows room for error and conflict by not merging manually.
